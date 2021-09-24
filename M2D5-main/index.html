@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="/assets/media/4375011_logo_netflix_icon.png" type="image/x-icon">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>Netflix</title>
+  </head>
+  <body>
+    <!--added bootstrap navbar and edited-->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <a class="navbar-brand d-inline-block align-middle mr-2" href="#"
+        ><img
+          style="margin-left: 40px"
+          class="pr-10"
+          src="/M2D5-main/Assets/netflix-logo-png-2562.png"
+          width="80"
+          height="30"
+          alt=""
+      /></a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link active" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">TV Shows</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Movies</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Recently Added</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">My List</a>
+          </li>
+        </ul>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-search" viewBox="0 0 16 16">
+  <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+</svg>
+      <p style="margin-right: 15px" class="text-center text-white m-1">KIDS</p>
+      <img
+        src="/assets/media/kids.PNG"
+        style="margin-right: 15px; margin-left: 15px"
+        style="margin-right: 15px"
+        class="mr-2"
+        width="22"
+        height="22"
+      />
+      <div class="btn-group">
+        <button
+          class="btn dropdown-toggle text-white"
+          style="margin-right: 15px"
+          type="button"
+          data-toggle="dropdown"
+          aria-haspopup="true"
+          aria-expanded="false"
+        ></button>
+        <div class="dropdown-menu dropdown-menu-right m-1">
+          <button class="dropdown-item" type="button">User Profile</button>
+          <button class="dropdown-item" type="button">Settings</button>
+          <button class="dropdown-item border-0" type="button">
+            Help Centre
+          </button>
+        </div>
+      </div>
+    </nav>
+    <main>
+      <div class="container genres-drop-down">
+        <div class="row">
+          <h1>Movies</h1>
+          <div class="column">
+            <div class="dropdown">
+              <button
+                class="btn btn-secondary dropdown-toggle bg-dark"
+                type="button"
+                id="dropdownMenuButton"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Genres
+              </button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Horror</a>
+                <a class="dropdown-item" href="#">Comedy</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container-fluid mt-4 pl-lg-5 titles genres">
+        
+    </main>
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="column">
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-youtube"></a>
+            <a href="#" class="fa fa-instagram"></a>
+          </div>
+        </div>
+      </div>
+      <div class="container flinks">
+        <div class="row">
+          <div class="col links">
+            <a href="#">Audio and Subtitles</a>
+          </div>
+          <div class="col links">
+            <a href="#">Audio Description</a>
+          </div>
+          <div class="col links">
+            <a href="#">Help Center</a>
+          </div>
+          <div class="col links">
+            <a href="#">Gift Cards</a>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col links">
+            <a href="#">Media Center</a>
+          </div>
+          <div class="col links">
+            <a href="#">Inverstor Relations</a>
+          </div>
+          <div class="col links">
+            <a href="#">Jobs</a>
+          </div>
+          <div class="col links">
+            <a href="#">Terms of Use</a>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col links">
+            <a href="#">Privacy</a>
+          </div>
+          <div class="col links">
+            <a href="#">Legal Notices</a>
+          </div>
+          <div class="col links">
+            <a href="#">Cookie Preferences</a>
+          </div>
+          <div class="col links">
+            <a href="#">Corporate Information</a>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col links">
+            <a href="#">Contact Us</a>
+          </div>
+        </div>
+        <button class="btn-danger">Service Code</button>
+        <p style="color: grey; margin-top: 5px">Netflix Clone</p>
+      </div>
+    </footer>
+
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
