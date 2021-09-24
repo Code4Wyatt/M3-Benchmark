@@ -69,6 +69,13 @@ const handleSubmit = async (event) => {
             }
         })
         
+        if (response.ok) {
+            alert("Added Succesfully!")
+            window.location.reload()
+            
+        } else {
+            alert("Failed to add.")
+        }
     } catch (err) {
         console.log(err);
     }

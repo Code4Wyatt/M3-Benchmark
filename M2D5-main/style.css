@@ -2,6 +2,10 @@
     visibility: hidden;
 }
 
+#edit {
+    bottom: 70px;
+}
+
 .logo {
     height: 20px;
     width: 20px;
@@ -17,7 +21,7 @@ body {
 
 footer {
     position: relative;
-    bottom: 0;
+    bottom: -200px;
     left: 5%;
     margin-top: 1300px;
     margin-bottom: 50px;
@@ -184,6 +188,9 @@ label {
     max-height: 180px;
     transition:0.3s;
     opacity: 0.7;
+    object-fit: cover;
+    position: relative;
+  
 }
 
 .movie-cover:hover{
@@ -193,14 +200,25 @@ label {
     transform:scale(1.05);
 }
 
+.movieName {
+    position: relative;
+    bottom: 180px;
+    
+}
+
+.movie-gallery {
+    margin-bottom: -60px !important;
+}
 
 
 .carousel-control-next{
     margin-right:-4%;
+    margin-bottom: 100px;
 }
 
 .carousel-control-prev{
     margin-left:-8%;
+    margin-bottom: 100px;
 }
 
 .carousel-item {
@@ -244,7 +262,7 @@ label {
 .info {
     position: relative;
     z-index: 2;
-    bottom: 15px;
+    bottom: 30px;
     left: 5px;
     visibility: hidden;
     color: red;
