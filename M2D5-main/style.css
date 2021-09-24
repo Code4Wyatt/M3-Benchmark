@@ -19,13 +19,7 @@ body {
 
 }
 
-footer {
-    position: relative;
-    bottom: -200px;
-    left: 5%;
-    margin-top: 1300px;
-    margin-bottom: 50px;
-}
+
 
 .bi-search {
     margin-right: 15px;
@@ -203,6 +197,8 @@ label {
 .movieName {
     position: relative;
     bottom: 180px;
+    left: 5px;
+    width: 300px;
     
 }
 
@@ -278,3 +274,10 @@ label {
     z-index: 2;
 }
 
+footer {
+    position: relative;
+    bottom: -50px;
+    left: 5%;
+    margin-top: 1300px;
+    margin-bottom: 50px;
+}
