@@ -128,7 +128,8 @@ const displayEntries = async () => {
                             <div class="row">
                             ${chunk.map((movie) => `<div class="col-sm-4 col-lg-1 movie-cards">
                                     <div style="color: white;">${movie.name}</div>
-                                    <a><button class="btn btn-outline-secondary" onclick="deleteEntry()">Edit</button></a>
+                                    
+                                    <a href="backoffice.html?id=${movie._id}"><button class="btn btn-outline-secondary" >Edit</button></a>
                                     <button id="${movie.id}" class="btn btn-outline-danger" onclick="deleteMovie(id)">Delete</button>
                                 </div>`)
                             .join("")}
