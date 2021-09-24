@@ -9,7 +9,7 @@ const getMovies = async () => {
     try { 
         const rawData = await fetch("https://striveschool-api.herokuapp.com/api/movies/", {
             headers: {
-                "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MTFjZjllNzJkNTI2MjAwMTViNmRjYTIiLCJpYXQiOjE2MzA3NzU5NTEsImV4cCI6MTYzMTk4NTU1MX0.bVwbyj0OXWNQQreEe-rKNeN5Zq68tI7aarukx9rnoWM",
+                "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MTRiMjdjMjRiYjUzZDAwMTViMTlmNzEiLCJpYXQiOjE2MzI0NzYxMjUsImV4cCI6MTYzMzY4NTcyNX0.xlQ-N-RIVEj6ZjmVJ_soES2p5pLk5OFDCwCEZ6nZq8g",
                 "Content-Type": "application/json",
             },
             //body: JSON.stringify(yourBody) ONLY IF NEEDED
@@ -23,7 +23,7 @@ const getMovies = async () => {
                     const res = await fetch(
                         "https://striveschool-api.herokuapp.com/api/movies/" + category, {
                         headers: {
-                            "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MTFjZjllNzJkNTI2MjAwMTViNmRjYTIiLCJpYXQiOjE2MzA3NzU5NTEsImV4cCI6MTYzMTk4NTU1MX0.bVwbyj0OXWNQQreEe-rKNeN5Zq68tI7aarukx9rnoWM",
+                            "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MTRiMjdjMjRiYjUzZDAwMTViMTlmNzEiLCJpYXQiOjE2MzI0NzYxMjUsImV4cCI6MTYzMzY4NTcyNX0.xlQ-N-RIVEj6ZjmVJ_soES2p5pLk5OFDCwCEZ6nZq8g",
                         },
                     }
                     );
